@@ -9,7 +9,7 @@ make install
 ### To connect to the vpn 
 
 ```bash
-snx -u <username> -s <you vpn server> 
+snx -u <username> -s <your vpn server> 
 ```
 
 ### Enter the password when prompted
