@@ -18,6 +18,8 @@ chmod: $(SCRIPT)
 	chmod +x $(SCRIPT)
 
 install: download unzip chmod
+	sudo apt-get update
+	sudo apt-get install libx11-6:i386 libpam0g:i386 libstdc++5:i386 lib32z1 lib32ncurses-dev xterm libnss3-tools
 	sudo ./$(SCRIPT)
 
 clean:
