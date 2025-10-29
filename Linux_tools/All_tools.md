@@ -23,7 +23,7 @@ Categories=Development;Education;Science;
 StartupNotify=true
 ```
 
-#### Note: Replace `/usr/local/location/of/the/launcher/file` with the actual application intall launcher directory or it won't work.
+Note: Replace `/usr/local/location/of/the/launcher/file` with the actual application intall launcher directory or it won't work.
 
 #### Make it executable
 
